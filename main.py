@@ -1,3 +1,4 @@
+import random
 # Create a deck of cards
 def createDeck():
     deck = []
@@ -22,8 +23,13 @@ def createDeck():
             if value != 0:
                 deck.append(card)
 
-    print(len(deck))
+    return deck
 
-    # return deck
+def shuffle_deck(deck):
+    random.shuffle(deck)
+    return deck
 
-createDeck()
+
+uno_game = createDeck()
+uno_game = shuffle_deck(uno_game)
+print(uno_game)
