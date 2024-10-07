@@ -34,6 +34,10 @@ def draw_cards(num_cards):
     cardsDraw = [uno_game.pop(0) or x for x in range(num_cards)]
     return cardsDraw
 
+# Print players hand
+
+
+
 
 uno_game = createDeck()
 uno_game = shuffle_deck(uno_game)
