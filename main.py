@@ -29,6 +29,10 @@ def shuffle_deck(deck):
     random.shuffle(deck)
     return deck
 
+# 3. Draw a card from the top of the deck
+def draw_cards(num_cards):
+    pass
+
 
 uno_game = createDeck()
 uno_game = shuffle_deck(uno_game)
