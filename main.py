@@ -32,6 +32,7 @@ def shuffle_deck(deck):
 # 3. Draw a card from the top of the deck
 def draw_cards(num_cards):
     cardsDraw = [uno_game.pop(0) or x for x in range(num_cards)]
+    return cardsDraw
 
 
 uno_game = createDeck()
