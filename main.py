@@ -41,4 +41,4 @@ def draw_cards(num_cards):
 
 uno_game = createDeck()
 uno_game = shuffle_deck(uno_game)
-print(uno_game)
+
