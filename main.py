@@ -39,6 +39,9 @@ def show_players_hand(player, player_hand):
     print(f"Turn for Player {player + 1}")
     print("Cards in Hand")
     print("------------------")
+    for i, card in enumerate(player_hand, 1):
+        print(f"{i}) {card}")      
+
 
 
 
