@@ -35,6 +35,8 @@ def draw_cards(num_cards):
     return cardsDraw
 
 # Print players hand
+def show_players_hand(player, player_hand):
+    print(f"Turn for Player {player + 1}")
 
 
 
