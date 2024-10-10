@@ -52,6 +52,10 @@ def can_play(colour, value, player_hand):
 def switch_players_turn(player_turn, play_direction, num_players):
     player_turn += play_direction
 
+    if player_turn >= num_players:
+         player_turn = 0
+
+
 
 
 
