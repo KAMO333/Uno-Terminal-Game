@@ -50,6 +50,7 @@ def can_play(colour, value, player_hand):
     return any('Wild' in card or colour in card or value in card for card in player_hand)
 
 def switch_players_turn(player_turn, play_direction, num_players):
+    player_turn += play_direction
 
 
 
