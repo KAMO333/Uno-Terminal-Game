@@ -44,6 +44,11 @@ def show_players_hand(player, player_hand):
     print("")  
 
 
+# Check whather a player can play a card or not
+def can_play(colour, value, player_hand):
+
+
+
 
 
 
