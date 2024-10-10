@@ -46,6 +46,9 @@ def show_players_hand(player, player_hand):
 
 # Check whather a player can play a card or not
 def can_play(colour, value, player_hand):
+    # Find any element that returns True
+    return any('Wild' in card or colour in card or value in card for card in player_hand)
+
 
 
 
