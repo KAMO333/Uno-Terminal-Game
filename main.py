@@ -54,6 +54,9 @@ def switch_players_turn(player_turn, play_direction, num_players):
 
     if player_turn >= num_players:
          player_turn = 0
+    elif player_turn < 0:
+        player_turn = num_players - 1
+
 
 
 
