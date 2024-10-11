@@ -59,6 +59,10 @@ def switch_players_turn(player_turn, play_direction, num_players):
 
     return player_turn
 
+def draw_multiple_cards(player_turn, play_direction, num_players):
+    player_draw = player_turn + play_direction
+
+
 
 uno_game = createDeck()
 uno_game = shuffle_deck(uno_game)
