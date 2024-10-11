@@ -43,7 +43,6 @@ def show_players_hand(player, player_hand):
         print(f"{i}) {card}")    
     print("")  
 
-
 # Check whather a player can play a card or not
 def can_play(colour, value, player_hand):
     # Find any element that returns True
@@ -70,10 +69,10 @@ def draw_multiple_cards(player_turn, play_direction, num_players):
 
     return player_draw
 
-
-
-
 game_deck = createDeck()
 game_deck = shuffle_deck(game_deck)
 game_deck = shuffle_deck(game_deck) # Shuffle twice
+discards = []
+colours = ["Red","Green","Yellow","Blue"]
+
 
