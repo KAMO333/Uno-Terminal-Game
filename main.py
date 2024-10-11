@@ -31,7 +31,7 @@ def shuffle_deck(deck):
 
 # 3. Draw a card from the top of the deck
 def draw_cards(num_cards):
-    cardsDraw = [uno_game.pop(0) or x for x in range(num_cards)]
+    cardsDraw = [game_deck.pop(0) or x for x in range(num_cards)]
     return cardsDraw
 
 # Print players hand
@@ -73,6 +73,7 @@ def draw_multiple_cards(player_turn, play_direction, num_players):
 
 
 
-uno_game = createDeck()
-uno_game = shuffle_deck(uno_game)
+game_deck = createDeck()
+game_deck = shuffle_deck(game_deck)
+game_deck = shuffle_deck(game_deck) # Shuffle twice
 
