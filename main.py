@@ -62,6 +62,10 @@ def switch_players_turn(player_turn, play_direction, num_players):
 def draw_multiple_cards(player_turn, play_direction, num_players):
     player_draw = player_turn + play_direction
 
+    if player_draw == num_players:
+        player_draw = 0
+
+
 
 
 uno_game = createDeck()
