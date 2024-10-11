@@ -65,6 +65,11 @@ def draw_multiple_cards(player_turn, play_direction, num_players):
     if player_draw == num_players:
         player_draw = 0
 
+    elif player_draw < 0:
+        player_draw = num_players-1
+
+    return player_draw
+
 
 
 
