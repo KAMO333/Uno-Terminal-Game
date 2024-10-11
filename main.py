@@ -57,6 +57,8 @@ def switch_players_turn(player_turn, play_direction, num_players):
     elif player_turn < 0:
         player_turn = num_players - 1
 
+    return player_turn
+
 
 uno_game = createDeck()
 uno_game = shuffle_deck(uno_game)
