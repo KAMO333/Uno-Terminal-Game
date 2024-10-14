@@ -92,6 +92,11 @@ while True:
             print(f"Continuing with {num_players} players...")
             print('\n')
             break
+        else:
+            print("Invalid input. Please choose a number between 2 and 4.")
+    except ValueError:
+        print("Invalid input. Please enter a valid number.")
+
 
 
 
