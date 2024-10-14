@@ -75,4 +75,12 @@ game_deck = shuffle_deck(game_deck) # Shuffle twice
 discards = []
 colours = ["Red","Green","Yellow","Blue"]
 
+# Choose game mode and number of players
+while True:
+    try:
+        num_players = int(input('Enter the number of players: '))
+        if num_players == 1:
+           player_input = input("Would you like to play against the computer? (yes/no): ")
+
+
 
