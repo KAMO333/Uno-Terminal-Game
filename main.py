@@ -81,6 +81,11 @@ while True:
         num_players = int(input('Enter the number of players: '))
         if num_players == 1:
            player_input = input("Would you like to play against the computer? (yes/no): ")
+        if player_input.lower() == "yes":
+            print("Continuing...")
+            print('\n')
+            break
+
 
 
 
