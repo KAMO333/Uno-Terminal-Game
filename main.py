@@ -97,6 +97,10 @@ while True:
     except ValueError:
         print("Invalid input. Please enter a valid number.")
 
+# List of players
+players = [draw_cards(7) or player for player in range(num_players)]
+
+
 
 
 
