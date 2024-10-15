@@ -104,6 +104,10 @@ players = [draw_cards(7) or player for player in range(num_players)]
 player_turn = 0
 play_direction = 1
 playing = True
+discards.append(game_deck.pop(0))
+split_card = discards[0].split(" ", 1)
+current_colour = split_card[0]
+
 
 
 
