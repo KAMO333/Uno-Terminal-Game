@@ -118,6 +118,10 @@ while playing:
         # Show the current player's hand
         show_players_hand(player_turn, players[player_turn])
 
+        # Show the last card in the discards pile
+        print(f'Top card on discard pile: {discards[-1]}')
+
+
 
 
 
