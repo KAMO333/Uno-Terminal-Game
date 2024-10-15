@@ -108,6 +108,12 @@ discards.append(game_deck.pop(0))
 split_card = discards[0].split(" ", 1)
 current_colour = split_card[0]
 
+if current_colour != "Wild":
+    card_val = split_card[1]
+else:
+    card_val = "Any"
+
+
 
 
 
