@@ -100,6 +100,12 @@ while True:
 # List of players
 players = [draw_cards(7) or player for player in range(num_players)]
 
+# 4. Decide whos turn to play and which direction to go
+player_turn = 0
+play_direction = 1
+playing = True
+
+
 
 
 
