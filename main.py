@@ -114,6 +114,12 @@ else:
     card_val = "Any"
 
 
+while playing:
+        # Show the current player's hand
+        show_players_hand(player_turn, players[player_turn])
+
+
+
 
 
 
