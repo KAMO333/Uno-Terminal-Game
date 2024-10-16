@@ -142,6 +142,11 @@ while playing:
             for _ in players[player_turn]:
                 count += 1
 
+            if count == 0:
+                playing = False
+                winner = f'Player {player_turn+1}'
+
+
 
 
 
