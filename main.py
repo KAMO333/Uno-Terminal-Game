@@ -136,6 +136,13 @@ while playing:
             # Remove the card from player's hand and add it to the discard pile
             discards.append(players[player_turn].pop(card_chosen - 1))
 
+            #Check if player won
+            count = 0
+
+            for _ in players[player_turn]:
+                count += 1
+
+
 
 
 
