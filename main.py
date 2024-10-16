@@ -121,6 +121,13 @@ while playing:
         # Show the last card in the discards pile
         print(f'Top card on discard pile: {discards[-1]}')
 
+        # Check if the player can play any card
+        if can_play(current_colour, card_val, players[player_turn]):
+             # Ask the player which card they want to play
+            card_chosen = int(float(input("Select a card to play. ")))
+
+
+
 
 
 
