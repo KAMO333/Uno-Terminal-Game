@@ -133,6 +133,9 @@ while playing:
             # Announce the played card
             print(f'You have played {players[player_turn][card_chosen - 1]}')
             print("")
+            # Remove the card from player's hand and add it to the discard pile
+            discards.append(players[player_turn].pop(card_chosen - 1))
+
 
 
 
