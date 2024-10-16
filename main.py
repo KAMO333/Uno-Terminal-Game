@@ -123,12 +123,17 @@ while playing:
 
         # Check if the player can play any card
         if can_play(current_colour, card_val, players[player_turn]):
-             # Ask the player which card they want to play
+            # Ask the player which card they want to play
             card_chosen = int(float(input("Select a card to play. ")))
 
-        # Validate the chosen card
+            # Validate the chosen card
             while not can_play(current_colour, card_val, [players[player_turn][card_chosen - 1]]):
                 card_chosen = int(float(input("Card is not valid. Please select a card to play. ")))
+
+            # Announce the played card
+            print(f'You have played {players[player_turn][card_chosen - 1]}')
+            print("")
+
 
 
 
