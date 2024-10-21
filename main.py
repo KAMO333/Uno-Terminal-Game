@@ -149,6 +149,7 @@ while playing:
             else:
                 # Check for special cards
                 split_card = discards[-1].split(" ", 1)
+                current_colour = split_card[0]
 
 
 
