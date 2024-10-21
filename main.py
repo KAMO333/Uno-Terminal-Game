@@ -156,6 +156,7 @@ while playing:
                 card_val = "Any"
             else:
                 # else its a card with two strings, we assign it to the rest of the string
+                card_val = split_card[1]
 
 
 
