@@ -146,6 +146,11 @@ while playing:
                 playing = False
                 winner = f'Player {player_turn+1}'
 
+            else:
+                # Check for special cards
+                split_card = discards[-1].split(" ", 1)
+
+
 
 
 
