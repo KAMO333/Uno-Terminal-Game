@@ -151,6 +151,11 @@ while playing:
                 split_card = discards[-1].split(" ", 1)
                 current_colour = split_card[0]
 
+            # if the card is just wild assign to any
+            if sum(1 for _ in split_card) == 1:
+                card_val = "Any"
+
+
 
 
 
