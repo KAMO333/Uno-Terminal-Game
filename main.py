@@ -154,6 +154,9 @@ while playing:
             # if the card is just wild assign to any
             if sum(1 for _ in split_card) == 1:
                 card_val = "Any"
+            else:
+                # else its a card with two strings, we assign it to the rest of the string
+
 
 
 
