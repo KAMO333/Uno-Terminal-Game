@@ -158,6 +158,14 @@ while playing:
                 # else its a card with two strings, we assign it to the rest of the string
                 card_val = split_card[1]
 
+            # if card is Wild
+            if current_colour == "Wild":
+                for i, _ in enumerate(colours):
+                   print(f'{i+1}) {colours[i]}')
+                new_colour = int(float(input("Select a color to play. ")))
+
+
+
 
 
 
