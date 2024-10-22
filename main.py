@@ -164,6 +164,10 @@ while playing:
                    print(f'{i+1}) {colours[i]}')
                 new_colour = int(float(input("Select a color to play. ")))
 
+                while new_colour < 1 or new_colour > 4:
+                    new_colour = int(float(input("Invalid choice. Please select a color to play. ")))
+
+
 
 
 
