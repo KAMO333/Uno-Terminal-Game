@@ -167,6 +167,10 @@ while playing:
                 while new_colour < 1 or new_colour > 4:
                     new_colour = int(float(input("Invalid choice. Please select a color to play. ")))
                     current_colour = colours[new_colour-1]
+            # if card is Reverse, changes the games direction
+            if card_val == "Reverse":
+                play_direction = play_direction * -1
+
 
 
 
