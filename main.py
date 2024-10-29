@@ -171,6 +171,8 @@ while playing:
             if card_val == "Reverse":
                 play_direction = play_direction * -1
 
+            # If card is Skip, skip players turn
+
 
 
 
