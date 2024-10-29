@@ -172,6 +172,10 @@ while playing:
                 play_direction = play_direction * -1
 
             # If card is Skip, skip players turn
+            elif card_val == "Skip":
+                player_turn = switch_players_turn(player_turn, play_direction, num_players)
+
+
 
 
 
