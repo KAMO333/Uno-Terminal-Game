@@ -178,6 +178,7 @@ while playing:
             # If card is draw two, draw two cards
             elif card_val == "Draw Two":
                 player_draw =  draw_multiple_cards(player_turn, play_direction, num_players)
+                players[player_draw].extend(draw_cards(2))
 
 
 
