@@ -176,6 +176,9 @@ while playing:
                 player_turn = switch_players_turn(player_turn, play_direction, num_players)
 
             # If card is draw two, draw two cards
+            elif card_val == "Draw Two":
+                player_draw =  draw_multiple_cards(player_turn, play_direction, num_players)
+
 
 
 
