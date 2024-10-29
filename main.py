@@ -175,6 +175,10 @@ while playing:
             elif card_val == "Skip":
                 player_turn = switch_players_turn(player_turn, play_direction, num_players)
 
+            # If card is draw two, draw two cards
+
+
+
 
 
 
